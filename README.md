@@ -1,46 +1,5 @@
-# Getting Started with Create React App
+Notes from PL:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Started running up against the time limit, so left a few things undone. I tried to get fancy and make use of Ant Design's editable typography for the inline editing to show that I was making an effort at using Ant. This was a bad idea, since it does some bizarre resizing thing after changing the data and completely breaks the drag and drop stuff I have in there. I left it in there, since I didn't have time to get in and figure out what was going on.
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Otherwise, I think it's all functional. There were some bizarre items in the Figma that, in a real work environment, I would talk to the designer about (i.e., "Do you really mean for the page background to change depending on whether there are projects or not?", "Does the stroke under the header really come and go like that?"). I would probably also break out that App.tsx file if this was real code, but decide to keep it simple for now.
