@@ -28,20 +28,7 @@ export type AppThunk<ReturnType = void> = ThunkAction<
 >;
 
 const initialState: ProjectState = {
-	projects: [
-		{
-			id: '324832',
-			name: 'foo',
-			dateCreated: 3482394823,
-			weight: 2
-		},
-		{
-			id: '3244832',
-			name: 'bar',
-			dateCreated: 3482394923,
-			weight: 1
-		}
-	],
+	projects: [],
 	status: 'IDLE'
 };
 
